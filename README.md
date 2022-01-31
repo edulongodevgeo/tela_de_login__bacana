@@ -5,11 +5,12 @@ Link preview: https://teladeloginbacana.eduardolongo1.repl.co/
 
 ## Screenshots
 
-![alt text](img/...)
+![alt text](img/print_loginBacana.jpg)
 ## Funcionalidades
 
 - Responsividade;
 - Criatividade;
+- SVG Art;
 
 
 ## Autores
