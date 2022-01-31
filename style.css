@@ -47,6 +47,13 @@ body {
   background: #6946b9;
 }
 
+.textfield, a {
+  color: whitesmoke;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: 'Supermercado One', cursive;
+}
+
 .card-login {
   width: 60%;
   display: flex;
