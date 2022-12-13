@@ -119,10 +119,19 @@ body {
   text-transform: uppercase;
   font-weight: 800;
   letter-spacing: 2.5px;
-  background: #77ffc0;
+  background-color: #77ffc0;
   box-shadow: 0 10px 40px -12px #00ff8052;
   box-sizing: border-box;
+  transition: all 0.4s;
 }
+
+.btn-login:hover {
+  background-color: #86f9e2ff;
+  /*-webkit-transform: scale(1.2);
+  transform: scale(1.2);*/
+}
+
+
 
 @media only screen and (max-width: 600px){
   .main-login{
@@ -154,11 +163,12 @@ body {
 
 @media only screen and (min-width: 1800px) {
   .main-login {
-      flex-direction: row;
+    flex-direction: row;
+    margin: 0 auto;
   }
 
   .container__left__svg {
-  width: 40%;
+  width: 50%;
 }
 
 .container__left > h1 {
@@ -172,5 +182,11 @@ body {
 .container__right {
   overflow: hidden;
   box-sizing: border-box;
+}
+
+.card-login {
+  background: #2f2841;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px #0000009d;
 }
 }
